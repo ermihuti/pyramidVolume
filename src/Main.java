@@ -6,7 +6,8 @@ public class Main {
         KreisPyramide kreisPyramide = new KreisPyramide(3, 6);
         System.out.println("Kreispyramide Volumen: " + kreisPyramide.volumen());
 
-        DreieckPyramide dreieckPyramide = new DreieckPyramide(5, 3, 6);
+        DreieckPyramide dreieckPyramide = new DreieckPyramide(4, 3, 6, 5);
         System.out.println("Dreieckpyramide Volumen: " + dreieckPyramide.volumen());
+        System.out.println("Dreieckpyramide Oberfläche: " + dreieckPyramide.oberflache());
     }
 }
