@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        QuadratischePyramide quadratischePyramide  = new QuadratischePyramide(4, 6);
-        System.out.println("Quadratischepyramide  Volumen: " + quadratischePyramide.volumen());
+        QuadratischePyramide quadratischePyramide = new QuadratischePyramide(4, 6, 5);
+        System.out.println("Quadratpyramide Volumen: " + quadratischePyramide.volumen());
+        System.out.println("Quadratpyramide Oberfläche: " + quadratischePyramide.oberflache());
 
         KreisPyramide kreisPyramide = new KreisPyramide(3, 6);
         System.out.println("Kreispyramide Volumen: " + kreisPyramide.volumen());
