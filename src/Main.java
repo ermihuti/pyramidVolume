@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+
+        QuadratischePyramide quadratischePyramide  = new QuadratischePyramide(4, 6);
+        System.out.println("Quadratischepyramide  Volumen: " + quadratischePyramide.volumen());
     }
 }
+
