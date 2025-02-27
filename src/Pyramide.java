@@ -1,4 +1,4 @@
-abstract class Pyramide {
+public abstract class Pyramide {
     private double hohe;
 
     public Pyramide(double hohe) {
