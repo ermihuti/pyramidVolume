@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        DreieckPyramide dreieckPyramide = new DreieckPyramide(4, 3, 6);
+        System.out.println("Dreieckpyramide Volumen: " + dreieckPyramide.volumen());
     }
 }
