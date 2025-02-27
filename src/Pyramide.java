@@ -11,3 +11,4 @@ abstract class Pyramide {
 
     public abstract double volumen();
 }
+
